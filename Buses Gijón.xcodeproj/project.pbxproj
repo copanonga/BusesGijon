@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A854437DED4F57203F5F8644 /* libPods-Buses Gijón.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */; };
+		D159579B1FF39B3000A967C1 /* LineasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579A1FF39B3000A967C1 /* LineasViewController.m */; };
+		D159579E1FF39D9F00A967C1 /* ParadasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579D1FF39D9F00A967C1 /* ParadasViewController.m */; };
+		D15957A21FF3A79200A967C1 /* LineasContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957A11FF3A79200A967C1 /* LineasContainerViewController.m */; };
+		D15957A61FF3C64D00A967C1 /* LineaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957A41FF3C64D00A967C1 /* LineaTableViewCell.m */; };
+		D15957A71FF3C64D00A967C1 /* LineaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15957A51FF3C64D00A967C1 /* LineaTableViewCell.xib */; };
+		D15957AA1FF3CBB200A967C1 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957A91FF3CBB200A967C1 /* Util.m */; };
+		D15957AD1FF3E41100A967C1 /* DetalleLineaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957AC1FF3E41100A967C1 /* DetalleLineaViewController.m */; };
+		D15957B01FF3E46600A967C1 /* DetalleParadaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957AF1FF3E46600A967C1 /* DetalleParadaViewController.m */; };
+		D15957B31FF3E48D00A967C1 /* DetalleHorariosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957B21FF3E48D00A967C1 /* DetalleHorariosViewController.m */; };
+		D15957B71FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957B51FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m */; };
+		D15957B81FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15957B61FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib */; };
+		D15957BC1FF62CF300A967C1 /* ParadaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957BA1FF62CF300A967C1 /* ParadaTableViewCell.m */; };
+		D15957BD1FF62CF300A967C1 /* ParadaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15957BB1FF62CF300A967C1 /* ParadaTableViewCell.xib */; };
+		D15957C31FF62E7600A967C1 /* ParadasLineasContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */; };
+		D1B5C1D21FEBC069007A762E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1D11FEBC069007A762E /* main.m */; };
+		D1B5C1DB1FEBC069007A762E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5C1D91FEBC069007A762E /* Main.storyboard */; };
+		D1B5C1DD1FEBC069007A762E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B5C1DC1FEBC069007A762E /* Assets.xcassets */; };
+		D1B5C1E01FEBC069007A762E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5C1DE1FEBC069007A762E /* LaunchScreen.storyboard */; };
+		D1B5C1EC1FEBC433007A762E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1E91FEBC433007A762E /* AppDelegate.m */; };
+		D1B5C1ED1FEBC433007A762E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1EB1FEBC433007A762E /* ViewController.m */; };
+		D1B5C1F21FEBCEBD007A762E /* URLs.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1F11FEBCEBD007A762E /* URLs.m */; };
+		D1B5C1F61FEBFC3A007A762E /* Parada.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1F51FEBFC3A007A762E /* Parada.m */; };
+		D1B5C1F91FEBFCA4007A762E /* Linea.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1F81FEBFCA4007A762E /* Linea.m */; };
+		D1B5C1FF1FEBFD31007A762E /* Trayecto.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1FE1FEBFD31007A762E /* Trayecto.m */; };
+		D1B5C2021FEBFDE0007A762E /* Horario.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C2011FEBFDE0007A762E /* Horario.m */; };
+		D1BA52401FFD257C004BBE5B /* Peticiones.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BA523F1FFD257C004BBE5B /* Peticiones.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buses Gijón.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buses Gijón.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón.debug.xcconfig"; sourceTree = "<group>"; };
+		D15957991FF39B3000A967C1 /* LineasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineasViewController.h; sourceTree = "<group>"; };
+		D159579A1FF39B3000A967C1 /* LineasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineasViewController.m; sourceTree = "<group>"; };
+		D159579C1FF39D9F00A967C1 /* ParadasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParadasViewController.h; sourceTree = "<group>"; };
+		D159579D1FF39D9F00A967C1 /* ParadasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadasViewController.m; sourceTree = "<group>"; };
+		D15957A01FF3A79200A967C1 /* LineasContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineasContainerViewController.h; sourceTree = "<group>"; };
+		D15957A11FF3A79200A967C1 /* LineasContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineasContainerViewController.m; sourceTree = "<group>"; };
+		D15957A31FF3C64D00A967C1 /* LineaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineaTableViewCell.h; sourceTree = "<group>"; };
+		D15957A41FF3C64D00A967C1 /* LineaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineaTableViewCell.m; sourceTree = "<group>"; };
+		D15957A51FF3C64D00A967C1 /* LineaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LineaTableViewCell.xib; sourceTree = "<group>"; };
+		D15957A81FF3CBB200A967C1 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		D15957A91FF3CBB200A967C1 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		D15957AB1FF3E41100A967C1 /* DetalleLineaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleLineaViewController.h; sourceTree = "<group>"; };
+		D15957AC1FF3E41100A967C1 /* DetalleLineaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleLineaViewController.m; sourceTree = "<group>"; };
+		D15957AE1FF3E46600A967C1 /* DetalleParadaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleParadaViewController.h; sourceTree = "<group>"; };
+		D15957AF1FF3E46600A967C1 /* DetalleParadaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleParadaViewController.m; sourceTree = "<group>"; };
+		D15957B11FF3E48D00A967C1 /* DetalleHorariosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleHorariosViewController.h; sourceTree = "<group>"; };
+		D15957B21FF3E48D00A967C1 /* DetalleHorariosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleHorariosViewController.m; sourceTree = "<group>"; };
+		D15957B41FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CeldaTrayectoCollectionViewCell.h; sourceTree = "<group>"; };
+		D15957B51FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CeldaTrayectoCollectionViewCell.m; sourceTree = "<group>"; };
+		D15957B61FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CeldaTrayectoCollectionViewCell.xib; sourceTree = "<group>"; };
+		D15957B91FF62CF300A967C1 /* ParadaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParadaTableViewCell.h; sourceTree = "<group>"; };
+		D15957BA1FF62CF300A967C1 /* ParadaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadaTableViewCell.m; sourceTree = "<group>"; };
+		D15957BB1FF62CF300A967C1 /* ParadaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParadaTableViewCell.xib; sourceTree = "<group>"; };
+		D15957C11FF62E7600A967C1 /* ParadasLineasContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParadasLineasContainerViewController.h; sourceTree = "<group>"; };
+		D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadasLineasContainerViewController.m; sourceTree = "<group>"; };
+		D1B5C1CD1FEBC069007A762E /* Buses Gijón.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buses Gijón.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B5C1D11FEBC069007A762E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1B5C1DA1FEBC069007A762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D1B5C1DC1FEBC069007A762E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D1B5C1DF1FEBC069007A762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D1B5C1E11FEBC069007A762E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1B5C1E81FEBC433007A762E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D1B5C1E91FEBC433007A762E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D1B5C1EA1FEBC433007A762E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D1B5C1EB1FEBC433007A762E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D1B5C1F01FEBCEBD007A762E /* URLs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLs.h; sourceTree = "<group>"; };
+		D1B5C1F11FEBCEBD007A762E /* URLs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLs.m; sourceTree = "<group>"; };
+		D1B5C1F41FEBFC3A007A762E /* Parada.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parada.h; sourceTree = "<group>"; };
+		D1B5C1F51FEBFC3A007A762E /* Parada.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parada.m; sourceTree = "<group>"; };
+		D1B5C1F71FEBFCA4007A762E /* Linea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linea.h; sourceTree = "<group>"; };
+		D1B5C1F81FEBFCA4007A762E /* Linea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Linea.m; sourceTree = "<group>"; };
+		D1B5C1FD1FEBFD31007A762E /* Trayecto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trayecto.h; sourceTree = "<group>"; };
+		D1B5C1FE1FEBFD31007A762E /* Trayecto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trayecto.m; sourceTree = "<group>"; };
+		D1B5C2001FEBFDE0007A762E /* Horario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Horario.h; sourceTree = "<group>"; };
+		D1B5C2011FEBFDE0007A762E /* Horario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Horario.m; sourceTree = "<group>"; };
+		D1BA523C1FFCE6A3004BBE5B /* Protocolos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocolos.h; sourceTree = "<group>"; };
+		D1BA523E1FFD257C004BBE5B /* Peticiones.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Peticiones.h; sourceTree = "<group>"; };
+		D1BA523F1FFD257C004BBE5B /* Peticiones.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Peticiones.m; sourceTree = "<group>"; };
+		DA64729B62C6454CA39899B7 /* Pods-Buses Gijón.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buses Gijón.release.xcconfig"; path = "Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1B5C1CA1FEBC069007A762E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A854437DED4F57203F5F8644 /* libPods-Buses Gijón.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DFA64A6FD53BFC1A84C9E64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D159579F1FF3A77700A967C1 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				D15957A01FF3A79200A967C1 /* LineasContainerViewController.h */,
+				D15957A11FF3A79200A967C1 /* LineasContainerViewController.m */,
+				D15957C11FF62E7600A967C1 /* ParadasLineasContainerViewController.h */,
+				D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		D1B5C1C41FEBC068007A762E = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1CF1FEBC069007A762E /* Buses Gijón */,
+				D1B5C1CE1FEBC069007A762E /* Products */,
+				E8A1AF7D6301C6E370E2110E /* Pods */,
+				2DFA64A6FD53BFC1A84C9E64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D1B5C1CE1FEBC069007A762E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1CD1FEBC069007A762E /* Buses Gijón.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B5C1CF1FEBC069007A762E /* Buses Gijón */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA523D1FFD254A004BBE5B /* Peticiones */,
+				D1BA523B1FFCE671004BBE5B /* Protocolos */,
+				D159579F1FF3A77700A967C1 /* Containers */,
+				D1B5C1F31FEBFC23007A762E /* Modelo */,
+				D1B5C1EF1FEBCE51007A762E /* Utilidades */,
+				D1B5C1EE1FEBC44C007A762E /* Vista */,
+				D1B5C1E71FEBC433007A762E /* Controlador */,
+				D1B5C1DC1FEBC069007A762E /* Assets.xcassets */,
+				D1B5C1E11FEBC069007A762E /* Info.plist */,
+				D1B5C1D01FEBC069007A762E /* Supporting Files */,
+			);
+			path = "Buses Gijón";
+			sourceTree = "<group>";
+		};
+		D1B5C1D01FEBC069007A762E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1D11FEBC069007A762E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D1B5C1E71FEBC433007A762E /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1E81FEBC433007A762E /* AppDelegate.h */,
+				D1B5C1E91FEBC433007A762E /* AppDelegate.m */,
+				D1B5C1EA1FEBC433007A762E /* ViewController.h */,
+				D1B5C1EB1FEBC433007A762E /* ViewController.m */,
+				D15957991FF39B3000A967C1 /* LineasViewController.h */,
+				D159579A1FF39B3000A967C1 /* LineasViewController.m */,
+				D159579C1FF39D9F00A967C1 /* ParadasViewController.h */,
+				D159579D1FF39D9F00A967C1 /* ParadasViewController.m */,
+				D15957AB1FF3E41100A967C1 /* DetalleLineaViewController.h */,
+				D15957AC1FF3E41100A967C1 /* DetalleLineaViewController.m */,
+				D15957AE1FF3E46600A967C1 /* DetalleParadaViewController.h */,
+				D15957AF1FF3E46600A967C1 /* DetalleParadaViewController.m */,
+				D15957B11FF3E48D00A967C1 /* DetalleHorariosViewController.h */,
+				D15957B21FF3E48D00A967C1 /* DetalleHorariosViewController.m */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+		D1B5C1EE1FEBC44C007A762E /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1D91FEBC069007A762E /* Main.storyboard */,
+				D1B5C1DE1FEBC069007A762E /* LaunchScreen.storyboard */,
+				D15957A31FF3C64D00A967C1 /* LineaTableViewCell.h */,
+				D15957A41FF3C64D00A967C1 /* LineaTableViewCell.m */,
+				D15957A51FF3C64D00A967C1 /* LineaTableViewCell.xib */,
+				D15957B41FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.h */,
+				D15957B51FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m */,
+				D15957B61FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib */,
+				D15957B91FF62CF300A967C1 /* ParadaTableViewCell.h */,
+				D15957BA1FF62CF300A967C1 /* ParadaTableViewCell.m */,
+				D15957BB1FF62CF300A967C1 /* ParadaTableViewCell.xib */,
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		D1B5C1EF1FEBCE51007A762E /* Utilidades */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1F01FEBCEBD007A762E /* URLs.h */,
+				D1B5C1F11FEBCEBD007A762E /* URLs.m */,
+				D15957A81FF3CBB200A967C1 /* Util.h */,
+				D15957A91FF3CBB200A967C1 /* Util.m */,
+			);
+			path = Utilidades;
+			sourceTree = "<group>";
+		};
+		D1B5C1F31FEBFC23007A762E /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				D1B5C1F41FEBFC3A007A762E /* Parada.h */,
+				D1B5C1F51FEBFC3A007A762E /* Parada.m */,
+				D1B5C1F71FEBFCA4007A762E /* Linea.h */,
+				D1B5C1F81FEBFCA4007A762E /* Linea.m */,
+				D1B5C1FD1FEBFD31007A762E /* Trayecto.h */,
+				D1B5C1FE1FEBFD31007A762E /* Trayecto.m */,
+				D1B5C2001FEBFDE0007A762E /* Horario.h */,
+				D1B5C2011FEBFDE0007A762E /* Horario.m */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		D1BA523B1FFCE671004BBE5B /* Protocolos */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA523C1FFCE6A3004BBE5B /* Protocolos.h */,
+			);
+			path = Protocolos;
+			sourceTree = "<group>";
+		};
+		D1BA523D1FFD254A004BBE5B /* Peticiones */ = {
+			isa = PBXGroup;
+			children = (
+				D1BA523E1FFD257C004BBE5B /* Peticiones.h */,
+				D1BA523F1FFD257C004BBE5B /* Peticiones.m */,
+			);
+			path = Peticiones;
+			sourceTree = "<group>";
+		};
+		E8A1AF7D6301C6E370E2110E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */,
+				DA64729B62C6454CA39899B7 /* Pods-Buses Gijón.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1B5C1CC1FEBC069007A762E /* Buses Gijón */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1B5C1E41FEBC069007A762E /* Build configuration list for PBXNativeTarget "Buses Gijón" */;
+			buildPhases = (
+				8FC5F4B5CB2DBA32AB21D54F /* [CP] Check Pods Manifest.lock */,
+				D1B5C1C91FEBC069007A762E /* Sources */,
+				D1B5C1CA1FEBC069007A762E /* Frameworks */,
+				D1B5C1CB1FEBC069007A762E /* Resources */,
+				1DCCD7E6B8BAD20C6982CA51 /* [CP] Embed Pods Frameworks */,
+				FB6B1E960EB8AE049EA411BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Buses Gijón";
+			productName = "Buses Gijón";
+			productReference = D1B5C1CD1FEBC069007A762E /* Buses Gijón.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D1B5C1C51FEBC068007A762E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Copanonga;
+				TargetAttributes = {
+					D1B5C1CC1FEBC069007A762E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M88D8RZEZJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D1B5C1C81FEBC068007A762E /* Build configuration list for PBXProject "Buses Gijón" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D1B5C1C41FEBC068007A762E;
+			productRefGroup = D1B5C1CE1FEBC069007A762E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1B5C1CC1FEBC069007A762E /* Buses Gijón */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D1B5C1CB1FEBC069007A762E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B5C1E01FEBC069007A762E /* LaunchScreen.storyboard in Resources */,
+				D1B5C1DD1FEBC069007A762E /* Assets.xcassets in Resources */,
+				D1B5C1DB1FEBC069007A762E /* Main.storyboard in Resources */,
+				D15957B81FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib in Resources */,
+				D15957BD1FF62CF300A967C1 /* ParadaTableViewCell.xib in Resources */,
+				D15957A71FF3C64D00A967C1 /* LineaTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DCCD7E6B8BAD20C6982CA51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FC5F4B5CB2DBA32AB21D54F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Buses Gijón-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6B1E960EB8AE049EA411BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1B5C1C91FEBC069007A762E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D15957BC1FF62CF300A967C1 /* ParadaTableViewCell.m in Sources */,
+				D15957AA1FF3CBB200A967C1 /* Util.m in Sources */,
+				D1BA52401FFD257C004BBE5B /* Peticiones.m in Sources */,
+				D15957B01FF3E46600A967C1 /* DetalleParadaViewController.m in Sources */,
+				D1B5C2021FEBFDE0007A762E /* Horario.m in Sources */,
+				D159579E1FF39D9F00A967C1 /* ParadasViewController.m in Sources */,
+				D159579B1FF39B3000A967C1 /* LineasViewController.m in Sources */,
+				D1B5C1ED1FEBC433007A762E /* ViewController.m in Sources */,
+				D1B5C1EC1FEBC433007A762E /* AppDelegate.m in Sources */,
+				D1B5C1F61FEBFC3A007A762E /* Parada.m in Sources */,
+				D1B5C1F91FEBFCA4007A762E /* Linea.m in Sources */,
+				D1B5C1FF1FEBFD31007A762E /* Trayecto.m in Sources */,
+				D1B5C1D21FEBC069007A762E /* main.m in Sources */,
+				D15957B31FF3E48D00A967C1 /* DetalleHorariosViewController.m in Sources */,
+				D15957AD1FF3E41100A967C1 /* DetalleLineaViewController.m in Sources */,
+				D15957B71FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m in Sources */,
+				D15957A21FF3A79200A967C1 /* LineasContainerViewController.m in Sources */,
+				D1B5C1F21FEBCEBD007A762E /* URLs.m in Sources */,
+				D15957C31FF62E7600A967C1 /* ParadasLineasContainerViewController.m in Sources */,
+				D15957A61FF3C64D00A967C1 /* LineaTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D1B5C1D91FEBC069007A762E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B5C1DA1FEBC069007A762E /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		D1B5C1DE1FEBC069007A762E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D1B5C1DF1FEBC069007A762E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D1B5C1E21FEBC069007A762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D1B5C1E31FEBC069007A762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D1B5C1E51FEBC069007A762E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M88D8RZEZJ;
+				INFOPLIST_FILE = "Buses Gijón/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.copanonga.Buses-Gijo-n";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D1B5C1E61FEBC069007A762E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA64729B62C6454CA39899B7 /* Pods-Buses Gijón.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M88D8RZEZJ;
+				INFOPLIST_FILE = "Buses Gijón/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "es.copanonga.Buses-Gijo-n";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D1B5C1C81FEBC068007A762E /* Build configuration list for PBXProject "Buses Gijón" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5C1E21FEBC069007A762E /* Debug */,
+				D1B5C1E31FEBC069007A762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1B5C1E41FEBC069007A762E /* Build configuration list for PBXNativeTarget "Buses Gijón" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1B5C1E51FEBC069007A762E /* Debug */,
+				D1B5C1E61FEBC069007A762E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D1B5C1C51FEBC068007A762E /* Project object */;
+}
