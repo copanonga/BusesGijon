@@ -41,7 +41,6 @@
 	[super viewDidLoad];
 	
 	[self getDatosPorProtocolo];
-	//[self getInfo];
 	
 }
 
@@ -104,88 +103,6 @@
 	
 	[self presentViewController:alert animated:YES completion:nil];
 
-}
-
-#pragma mark - Peticiones
-
--(void)getInfo {
-	
-	NSString *URL = URL_INFO;
-	
-	AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-	manager.requestSerializer=[AFHTTPRequestSerializer serializer];
-	manager.responseSerializer= [AFHTTPResponseSerializer serializer];
-	[manager GET:URL parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
-		
-		NSDictionary* json = [NSJSONSerialization
-							  JSONObjectWithData:responseObject
-							  options:kNilOptions
-							  error:nil];
-		
-		listadoLineas = [[NSMutableArray alloc] init];
-
-		NSDictionary *lineasTotal = [json objectForKey:@"lineas"];
-		NSArray *lineas = [lineasTotal objectForKey:@"linea"];
-		[lineas enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-			
-			Linea *lineaObtenida = [[Linea alloc]init];
-			[lineaObtenida setLinea:obj];
-			[listadoLineas addObject:lineaObtenida];
-			
-		}];
-		
-		listadoParadas = [[NSMutableArray alloc] init];
-		
-		NSDictionary *paradasTotal = [json objectForKey:@"paradas"];
-		NSArray *paradas = [paradasTotal objectForKey:@"parada"];
-		[paradas enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-			
-			Parada *paradaObtenida = [[Parada alloc]init];
-			[paradaObtenida setParada:obj];
-			[listadoParadas addObject:paradaObtenida];
-			
-		}];
-		
-		listadoParadasTrayectos = [[NSMutableArray alloc] init];
-		
-		NSDictionary *paradasTrayectosTotal = [json objectForKey:@"paradasTrayectos"];
-		NSArray *paradasTrayectos = [paradasTrayectosTotal objectForKey:@"parada"];
-		[paradasTrayectos enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-			
-			Parada *paradaObtenida = [[Parada alloc]init];
-			[paradaObtenida setParada:obj];
-			[listadoParadasTrayectos addObject:paradaObtenida];
-			
-		}];
-		
-		listadoHorarios = [[NSMutableArray alloc] init];
-		
-		NSDictionary *horariosTotal = [json objectForKey:@"horarios"];
-		NSArray *horarios = [horariosTotal objectForKey:@"horario"];
-		[horarios enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-			
-			Horario *horarioObtenido = [[Horario alloc]init];
-			[horarioObtenido setHorario:obj];
-			[listadoHorarios addObject:horarioObtenido];
-			
-		}];
-		
-		listadoTrayectos = [[NSMutableArray alloc] init];
-		
-		NSDictionary *trayectosTotal = [json objectForKey:@"trayectos"];
-		NSArray *trayectos = [trayectosTotal objectForKey:@"trayecto"];
-		[trayectos enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-			
-			Trayecto *trayectoObtenido = [[Trayecto alloc]init];
-			[trayectoObtenido setTrayecto:obj];
-			[listadoTrayectos addObject:trayectoObtenido];
-			
-		}];
-		
-	} failure:^(AFHTTPRequestOperation * _Nonnull operation, NSError * _Nonnull error) {
-		NSLog(@"Error: Información no disponible");
-	}];
-	
 }
 
 #pragma mark - Botones

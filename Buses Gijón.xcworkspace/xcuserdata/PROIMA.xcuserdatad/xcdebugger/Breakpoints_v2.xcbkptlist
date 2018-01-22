@@ -26,156 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
+            timestampString = "538323083.1906869"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
-            landmarkName = "-getInfo"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "-getInfo"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__26-[ViewController peticion]_block_invoke"
-                  moduleName = "Buses Gijo&#x301;n"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/PROIMA/Proyectos/iOS/Buses%20Gijo%CC%81n/Buses%20Gijo%CC%81n/Controlador/ViewController.m"
-                  timestampString = "535560655.525967"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "332">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__26-[ViewController peticion]_block_invoke_2"
-                  moduleName = "Buses Gijo&#x301;n"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/PROIMA/Proyectos/iOS/Buses%20Gijo%CC%81n/Buses%20Gijo%CC%81n/Controlador/ViewController.m"
-                  timestampString = "535560655.531149"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "24">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "-getInfo"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "-botonLineas:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController botonLineas:]"
-                  moduleName = "Buses Gijo&#x301;n"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/PROIMA/Proyectos/iOS/Buses%20Gijo%CC%81n/Buses%20Gijo%CC%81n/Controlador/ViewController.m"
-                  timestampString = "535565434.098899"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "208">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController botonLineas:]"
-                  moduleName = "Buses Gijo&#x301;n"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/PROIMA/Proyectos/iOS/Buses%20Gijo%CC%81n/Buses%20Gijo%CC%81n/Controlador/ViewController.m"
-                  timestampString = "535565434.10366"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "138"
-                  endingLineNumber = "138"
-                  offsetFromSymbolStart = "228">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
-            landmarkName = "-botonLineas:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "205"
-            endingLineNumber = "205"
-            landmarkName = "-botonParadas:"
             landmarkType = "7">
             <Locations>
                <Location
@@ -224,22 +80,6 @@
             startingLineNumber = "46"
             endingLineNumber = "46"
             landmarkName = "-lineaToString:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "536686111.238644"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
-            landmarkName = "-botonLineas:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
