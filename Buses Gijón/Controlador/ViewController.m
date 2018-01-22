@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "URLs.h"
-#import <AFNetworking.h>
 #import "Horario.h"
 #import "Linea.h"
 #import "Parada.h"
@@ -25,7 +24,7 @@
 	NSMutableArray *listadoTrayectos;
 	NSMutableArray *listadoHorarios;
 	NSMutableArray *listadoParadasTrayectos;
-	
+	AFNetworkReachabilityStatus *statusConnection;
 }
 
 @property (strong, nonatomic) IBOutlet UITextView *textViewResultado;
@@ -40,12 +39,36 @@
 	NSLog(@"\nViewController");
 	[super viewDidLoad];
 	
+	[self comprobarRed];
 	[self getDatosPorProtocolo];
 	
 }
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
+}
+
+#pragma mark - Comprobacion conexión de red
+
+-(void)comprobarRed{
+	
+	[[AFNetworkReachabilityManager sharedManager] startMonitoring];
+	[[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+		NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
+		switch (status) {
+			case AFNetworkReachabilityStatusReachableViaWWAN:
+			case AFNetworkReachabilityStatusReachableViaWiFi:
+				
+				NSLog(@"Hay red");
+				break;
+			case AFNetworkReachabilityStatusNotReachable:
+			default:
+				
+				NSLog(@"No hay red");
+				break;
+		}
+	}];
+	
 }
 
 #pragma mark - Protocolos

@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Protocolos.h"
+#import <AFNetworking.h>
 
 @interface ViewController : UIViewController <Protocolos>
 
@@ -17,5 +18,6 @@
 -(NSMutableArray *)getHorarios;
 -(NSMutableArray *)getParadasTrayectos;
 
-@end
 
+
+@end
