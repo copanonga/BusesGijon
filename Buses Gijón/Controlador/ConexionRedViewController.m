@@ -34,4 +34,8 @@
 }
 */
 
+- (IBAction)botonCerrar:(id)sender {
+	[self.navigationController popViewControllerAnimated:YES];
+}
+
 @end
