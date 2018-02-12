@@ -16,7 +16,7 @@
 #import "ParadasViewController.h"
 #import "Peticiones.h"
 #import "Protocolos.h"
-#import <UserNotifications/UserNotifications.h>
+#import "ConexionRedViewController.h"
 
 @interface ViewController () {
 
@@ -67,7 +67,9 @@
 			default:
 				
 				NSLog(@"No hay red");
-				[self mostrarAvisoNoHayRed];
+				//[self mostrarAvisoNoHayRed];
+				ConexionRedViewController *conexionRed = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"conexionRedViewController"];
+				[self.navigationController pushViewController:conexionRed animated:YES];
 				break;
 		}
 	}];

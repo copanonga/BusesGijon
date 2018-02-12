@@ -22,6 +22,7 @@
 		D15957BC1FF62CF300A967C1 /* ParadaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957BA1FF62CF300A967C1 /* ParadaTableViewCell.m */; };
 		D15957BD1FF62CF300A967C1 /* ParadaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D15957BB1FF62CF300A967C1 /* ParadaTableViewCell.xib */; };
 		D15957C31FF62E7600A967C1 /* ParadasLineasContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */; };
+		D162518F2031B17100D8F0E7 /* ConexionRedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D162518E2031B17100D8F0E7 /* ConexionRedViewController.m */; };
 		D1B5C1D21FEBC069007A762E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1B5C1D11FEBC069007A762E /* main.m */; };
 		D1B5C1DB1FEBC069007A762E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1B5C1D91FEBC069007A762E /* Main.storyboard */; };
 		D1B5C1DD1FEBC069007A762E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B5C1DC1FEBC069007A762E /* Assets.xcassets */; };
@@ -66,6 +67,8 @@
 		D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadasLineasContainerViewController.m; sourceTree = "<group>"; };
 		D162518A20319F2100D8F0E7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Buses Gijón.entitlements"; sourceTree = "<group>"; };
+		D162518D2031B17100D8F0E7 /* ConexionRedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConexionRedViewController.h; sourceTree = "<group>"; };
+		D162518E2031B17100D8F0E7 /* ConexionRedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConexionRedViewController.m; sourceTree = "<group>"; };
 		D1B5C1CD1FEBC069007A762E /* Buses Gijón.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buses Gijón.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B5C1D11FEBC069007A762E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1B5C1DA1FEBC069007A762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -185,6 +188,8 @@
 				D15957AF1FF3E46600A967C1 /* DetalleParadaViewController.m */,
 				D15957B11FF3E48D00A967C1 /* DetalleHorariosViewController.h */,
 				D15957B21FF3E48D00A967C1 /* DetalleHorariosViewController.m */,
+				D162518D2031B17100D8F0E7 /* ConexionRedViewController.h */,
+				D162518E2031B17100D8F0E7 /* ConexionRedViewController.m */,
 			);
 			path = Controlador;
 			sourceTree = "<group>";
@@ -406,6 +411,7 @@
 				D1B5C1F91FEBFCA4007A762E /* Linea.m in Sources */,
 				D1B5C1FF1FEBFD31007A762E /* Trayecto.m in Sources */,
 				D1B5C1D21FEBC069007A762E /* main.m in Sources */,
+				D162518F2031B17100D8F0E7 /* ConexionRedViewController.m in Sources */,
 				D15957B31FF3E48D00A967C1 /* DetalleHorariosViewController.m in Sources */,
 				D15957AD1FF3E41100A967C1 /* DetalleLineaViewController.m in Sources */,
 				D15957B71FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.m in Sources */,
