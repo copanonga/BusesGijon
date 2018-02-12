@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Buses Gijo&#x301;n/Controlador/ViewController.m"
-            timestampString = "538325483.725584"
+            timestampString = "540124481.193547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "-botonLineas:"
             landmarkType = "7">
             <Locations>

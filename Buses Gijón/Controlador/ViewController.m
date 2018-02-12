@@ -16,6 +16,7 @@
 #import "ParadasViewController.h"
 #import "Peticiones.h"
 #import "Protocolos.h"
+#import <UserNotifications/UserNotifications.h>
 
 @interface ViewController () {
 
@@ -60,14 +61,38 @@
 			case AFNetworkReachabilityStatusReachableViaWiFi:
 				
 				NSLog(@"Hay red");
+				[self getDatosPorProtocolo];
 				break;
 			case AFNetworkReachabilityStatusNotReachable:
 			default:
 				
 				NSLog(@"No hay red");
+				[self mostrarAvisoNoHayRed];
 				break;
 		}
 	}];
+	
+}
+
+-(void)mostrarAvisoNoHayRed {
+	
+	UIAlertController * alert=   [UIAlertController
+								  alertControllerWithTitle:NSLocalizedString(@"Buses Gijón", nil)
+								  message:NSLocalizedString(@"No hay conexión de red", nil)
+								  preferredStyle:UIAlertControllerStyleAlert];
+	
+	UIAlertAction* okButton = [UIAlertAction
+							   actionWithTitle:NSLocalizedString(@"Ok", nil)
+							   style:UIAlertActionStyleDefault
+							   handler:^(UIAlertAction * action)
+							   {
+								   
+								   [alert dismissViewControllerAnimated:YES completion:nil];
+								   
+							   }];
+	[alert addAction:okButton];
+	
+	[self presentViewController:alert animated:YES completion:nil];
 	
 }
 

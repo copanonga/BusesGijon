@@ -64,6 +64,8 @@
 		D15957BB1FF62CF300A967C1 /* ParadaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParadaTableViewCell.xib; sourceTree = "<group>"; };
 		D15957C11FF62E7600A967C1 /* ParadasLineasContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParadasLineasContainerViewController.h; sourceTree = "<group>"; };
 		D15957C21FF62E7600A967C1 /* ParadasLineasContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParadasLineasContainerViewController.m; sourceTree = "<group>"; };
+		D162518A20319F2100D8F0E7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Buses Gijón.entitlements"; sourceTree = "<group>"; };
 		D1B5C1CD1FEBC069007A762E /* Buses Gijón.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buses Gijón.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B5C1D11FEBC069007A762E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D1B5C1DA1FEBC069007A762E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		2DFA64A6FD53BFC1A84C9E64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D162518A20319F2100D8F0E7 /* UserNotifications.framework */,
 				49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */,
 			);
 			name = Frameworks;
@@ -142,6 +145,7 @@
 		D1B5C1CF1FEBC069007A762E /* Buses Gijón */ = {
 			isa = PBXGroup;
 			children = (
+				D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */,
 				D1BA523D1FFD254A004BBE5B /* Peticiones */,
 				D1BA523B1FFCE671004BBE5B /* Protocolos */,
 				D159579F1FF3A77700A967C1 /* Containers */,
@@ -291,6 +295,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = M88D8RZEZJ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
