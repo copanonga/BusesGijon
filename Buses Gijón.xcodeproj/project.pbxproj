@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8223A5AD2066703700467152 /* Linea.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223A5AB2066703600467152 /* Linea.png */; };
+		8223A5AE2066703700467152 /* ListadoLineas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223A5AC2066703600467152 /* ListadoLineas.png */; };
 		A854437DED4F57203F5F8644 /* libPods-Buses Gijón.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */; };
 		D159579B1FF39B3000A967C1 /* LineasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579A1FF39B3000A967C1 /* LineasViewController.m */; };
 		D159579E1FF39D9F00A967C1 /* ParadasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579D1FF39D9F00A967C1 /* ParadasViewController.m */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buses Gijón.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8223A5AB2066703600467152 /* Linea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Linea.png; sourceTree = "<group>"; };
+		8223A5AC2066703600467152 /* ListadoLineas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListadoLineas.png; sourceTree = "<group>"; };
 		CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buses Gijón.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón.debug.xcconfig"; sourceTree = "<group>"; };
 		D15957991FF39B3000A967C1 /* LineasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineasViewController.h; sourceTree = "<group>"; };
 		D159579A1FF39B3000A967C1 /* LineasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineasViewController.m; sourceTree = "<group>"; };
@@ -116,6 +120,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8223A5AA2066703600467152 /* Capturas */ = {
+			isa = PBXGroup;
+			children = (
+				8223A5AB2066703600467152 /* Linea.png */,
+				8223A5AC2066703600467152 /* ListadoLineas.png */,
+			);
+			path = Capturas;
+			sourceTree = SOURCE_ROOT;
+		};
 		D159579F1FF3A77700A967C1 /* Containers */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +161,7 @@
 		D1B5C1CF1FEBC069007A762E /* Buses Gijón */ = {
 			isa = PBXGroup;
 			children = (
+				8223A5AA2066703600467152 /* Capturas */,
 				D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */,
 				D1BA523D1FFD254A004BBE5B /* Peticiones */,
 				D1BA523B1FFCE671004BBE5B /* Protocolos */,
@@ -331,7 +345,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8223A5AE2066703700467152 /* ListadoLineas.png in Resources */,
 				D1B5C1E01FEBC069007A762E /* LaunchScreen.storyboard in Resources */,
+				8223A5AD2066703700467152 /* Linea.png in Resources */,
 				D1B5C1DD1FEBC069007A762E /* Assets.xcassets in Resources */,
 				D1B5C1DB1FEBC069007A762E /* Main.storyboard in Resources */,
 				D15957B81FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib in Resources */,
