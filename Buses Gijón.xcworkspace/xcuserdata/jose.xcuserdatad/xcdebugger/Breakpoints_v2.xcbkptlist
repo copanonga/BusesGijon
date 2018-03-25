@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Buses Gijo&#x301;n/Peticiones/Peticiones.m"
+            timestampString = "543662492.695371"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-getInfo"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[Peticiones getInfo]"
+                  moduleName = "Buses Gijo&#x301;n"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jose/Datos/iOS/BusesGijon/Buses%20Gijo%CC%81n/Peticiones/Peticiones.m"
+                  timestampString = "543662155.169469"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__21-[Peticiones getInfo]_block_invoke"
+                  moduleName = "Buses Gijo&#x301;n"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jose/Datos/iOS/BusesGijon/Buses%20Gijo%CC%81n/Peticiones/Peticiones.m"
+                  timestampString = "543662155.1903189"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__21-[Peticiones getInfo]_block_invoke_2"
+                  moduleName = "Buses Gijo&#x301;n"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jose/Datos/iOS/BusesGijon/Buses%20Gijo%CC%81n/Peticiones/Peticiones.m"
+                  timestampString = "543662155.196183"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Buses Gijo&#x301;n/Peticiones/Peticiones.m"
+            timestampString = "543662492.696152"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-getInfo"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
