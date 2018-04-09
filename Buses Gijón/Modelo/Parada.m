@@ -9,7 +9,7 @@
 #import "Parada.h"
 
 @implementation Parada
-@synthesize idparada, descripcion, utmx, utmy, idlinea, idtrayecto, orden, esUltimaParada;
+@synthesize idparada, descripcion, utmx, utmy, idlinea, idtrayecto, orden, esUltimaParada, esTrayectoSeleccionado;
 
 -(void) setParada: (id) result {
 	
@@ -44,6 +44,7 @@
 		orden = [[result objectForKey:@"orden"] intValue];
 	
 	esUltimaParada = NO;
+    esTrayectoSeleccionado = NO;
 	
 }
 

@@ -20,6 +20,7 @@
 @property(nonatomic) int orden;
 
 @property(nonatomic) BOOL esUltimaParada;
+@property(nonatomic) BOOL esTrayectoSeleccionado;
 
 -(void) setParada: (id) result;
 -(NSString *)paradaToString:(Parada *) parada;

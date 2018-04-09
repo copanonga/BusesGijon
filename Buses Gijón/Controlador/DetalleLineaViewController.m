@@ -170,6 +170,8 @@
 	if ([trayectosObtenidos count]>0) {
 		trayectoParadaSeleccionado = [[Parada alloc] init];
 		trayectoParadaSeleccionado = [trayectosObtenidos objectAtIndex:0];
+        Parada *primeraParada = [trayectosObtenidos objectAtIndex:0];
+        primeraParada.esTrayectoSeleccionado = YES;
 	}
 	
 	[coleccionTrayectos reloadData];
@@ -225,13 +227,19 @@
 	
 	if([collectionView isEqual:coleccionTrayectos]) {
 		
+        for (Parada *paradaAMostrar in trayectosObtenidos)
+            paradaAMostrar.esTrayectoSeleccionado = NO;
+        
 		Parada *paradaSeleccionada = [trayectosObtenidos objectAtIndex:indexPath.row];
+        paradaSeleccionada.esTrayectoSeleccionado = YES;
 		
 		trayectoParadaSeleccionado = [[Parada alloc] init];
 		trayectoParadaSeleccionado = paradaSeleccionada;
 		[self getParadasTrayecto];
 		[paradasLineasContainer setParadas:listadoParadas];
 		
+        [coleccionTrayectos reloadData];
+        
 	}
 	
 }

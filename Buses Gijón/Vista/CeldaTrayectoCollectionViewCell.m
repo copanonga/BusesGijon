@@ -27,6 +27,12 @@
 	
 	CeldaTrayectoCollectionViewCell *celda= [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([CeldaTrayectoCollectionViewCell class]) forIndexPath:indexPath];
 	
+    if (parada.esTrayectoSeleccionado) {
+        NSLog(@"\nEs trayecto seleccionado");
+    } else {
+        NSLog(@"\nNo es trayecto seleccionado");
+    }
+    
 	celda.labelTrayecto.text = [NSString stringWithFormat:@"Trayecto %i", parada.idtrayecto];
 	
 	return celda;
