@@ -27,10 +27,12 @@
 	
 	CeldaTrayectoCollectionViewCell *celda= [collectionView dequeueReusableCellWithReuseIdentifier:NSStringFromClass([CeldaTrayectoCollectionViewCell class]) forIndexPath:indexPath];
 	
+    celda.viewContenido.backgroundColor = [UIColor clearColor];
+    celda.labelTrayecto.textColor = [UIColor blackColor];
     if (parada.esTrayectoSeleccionado) {
-        NSLog(@"\nEs trayecto seleccionado");
-    } else {
-        NSLog(@"\nNo es trayecto seleccionado");
+        //NSLog(@"\nEs trayecto seleccionado");
+        celda.viewContenido.backgroundColor = [UIColor redColor];
+        celda.labelTrayecto.textColor = [UIColor whiteColor];
     }
     
 	celda.labelTrayecto.text = [NSString stringWithFormat:@"Trayecto %i", parada.idtrayecto];
