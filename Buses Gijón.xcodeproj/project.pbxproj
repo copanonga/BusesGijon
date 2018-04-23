@@ -15,6 +15,7 @@
 		82038264208DE6E800F04066 /* ListadoLineas1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82038260208DE6E600F04066 /* ListadoLineas1x.png */; };
 		82038265208DE6E800F04066 /* ListadoLineas.png in Resources */ = {isa = PBXBuildFile; fileRef = 82038261208DE6E700F04066 /* ListadoLineas.png */; };
 		82038266208DE6E800F04066 /* Linea1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82038262208DE6E700F04066 /* Linea1x.png */; };
+		82038268208DE7A300F04066 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 82038267208DE7A300F04066 /* README.md */; };
 		A854437DED4F57203F5F8644 /* libPods-Buses Gijón.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */; };
 		D159579B1FF39B3000A967C1 /* LineasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579A1FF39B3000A967C1 /* LineasViewController.m */; };
 		D159579E1FF39D9F00A967C1 /* ParadasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D159579D1FF39D9F00A967C1 /* ParadasViewController.m */; };
@@ -55,6 +56,7 @@
 		82038260208DE6E600F04066 /* ListadoLineas1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListadoLineas1x.png; sourceTree = "<group>"; };
 		82038261208DE6E700F04066 /* ListadoLineas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListadoLineas.png; sourceTree = "<group>"; };
 		82038262208DE6E700F04066 /* Linea1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Linea1x.png; sourceTree = "<group>"; };
+		82038267208DE7A300F04066 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buses Gijón.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón.debug.xcconfig"; sourceTree = "<group>"; };
 		D15957991FF39B3000A967C1 /* LineasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineasViewController.h; sourceTree = "<group>"; };
 		D159579A1FF39B3000A967C1 /* LineasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineasViewController.m; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 		D1B5C1CF1FEBC069007A762E /* Buses Gijón */ = {
 			isa = PBXGroup;
 			children = (
+				82038267208DE7A300F04066 /* README.md */,
 				82038254208DCDD900F04066 /* Resources */,
 				8223A5AA2066703600467152 /* Capturas */,
 				D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */,
@@ -399,6 +402,7 @@
 				82038263208DE6E800F04066 /* Linea.png in Resources */,
 				D15957B81FF6272500A967C1 /* CeldaTrayectoCollectionViewCell.xib in Resources */,
 				D15957BD1FF62CF300A967C1 /* ParadaTableViewCell.xib in Resources */,
+				82038268208DE7A300F04066 /* README.md in Resources */,
 				82038266208DE6E800F04066 /* Linea1x.png in Resources */,
 				D15957A71FF3C64D00A967C1 /* LineaTableViewCell.xib in Resources */,
 			);
