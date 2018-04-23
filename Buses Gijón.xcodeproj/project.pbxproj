@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82038257208DCDD900F04066 /* busgijoninfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 82038256208DCDD900F04066 /* busgijoninfo.json */; };
 		8223A5AD2066703700467152 /* Linea.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223A5AB2066703600467152 /* Linea.png */; };
 		8223A5AE2066703700467152 /* ListadoLineas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8223A5AC2066703600467152 /* ListadoLineas.png */; };
 		A854437DED4F57203F5F8644 /* libPods-Buses Gijón.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		49754CEB920CDF2826C0B18A /* libPods-Buses Gijón.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buses Gijón.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82038256208DCDD900F04066 /* busgijoninfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = busgijoninfo.json; sourceTree = "<group>"; };
 		8223A5AB2066703600467152 /* Linea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Linea.png; sourceTree = "<group>"; };
 		8223A5AC2066703600467152 /* ListadoLineas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ListadoLineas.png; sourceTree = "<group>"; };
 		CA47C520754899595FD24583 /* Pods-Buses Gijón.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buses Gijón.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Buses Gijón/Pods-Buses Gijón.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +122,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		82038254208DCDD900F04066 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82038255208DCDD900F04066 /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82038255208DCDD900F04066 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				82038256208DCDD900F04066 /* busgijoninfo.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		8223A5AA2066703600467152 /* Capturas */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +179,7 @@
 		D1B5C1CF1FEBC069007A762E /* Buses Gijón */ = {
 			isa = PBXGroup;
 			children = (
+				82038254208DCDD900F04066 /* Resources */,
 				8223A5AA2066703600467152 /* Capturas */,
 				D162518C2031A39B00D8F0E7 /* Buses Gijón.entitlements */,
 				D1BA523D1FFD254A004BBE5B /* Peticiones */,
@@ -346,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8223A5AE2066703700467152 /* ListadoLineas.png in Resources */,
+				82038257208DCDD900F04066 /* busgijoninfo.json in Resources */,
 				D1B5C1E01FEBC069007A762E /* LaunchScreen.storyboard in Resources */,
 				8223A5AD2066703700467152 /* Linea.png in Resources */,
 				D1B5C1DD1FEBC069007A762E /* Assets.xcassets in Resources */,
