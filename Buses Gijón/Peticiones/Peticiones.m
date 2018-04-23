@@ -23,7 +23,18 @@
 }
 
 -(void)getInfo {
-	
+    
+    /*
+     
+     //Obtener los datos del JSON local
+     
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"busgijoninfo" ofType:@"json"];
+    NSData *JSONData = [NSData dataWithContentsOfFile:filePath options:NSDataReadingMappedIfSafe error:nil];
+    NSDictionary *jsonObject = [NSJSONSerialization JSONObjectWithData:JSONData options:NSJSONReadingMutableContainers error:nil];
+    
+    NSLog(@"JSON local: %@", jsonObject);
+    */
+    
     NSURL *URL = [NSURL URLWithString:URL_INFO];
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.requestSerializer=[AFHTTPRequestSerializer serializer];
